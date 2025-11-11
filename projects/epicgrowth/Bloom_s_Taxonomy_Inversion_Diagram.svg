@@ -1,0 +1,195 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="greenGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#10b981;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#059669;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="blackGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#374151;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1f2937;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-color="#000" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="600" fill="#f9fafb"/>
+  
+  <!-- Title -->
+  <text x="400" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#1f2937">
+    Bloom's Taxonomy Inversion: Traditional vs AI-Assisted Learning
+  </text>
+  
+  <!-- Traditional Approach (Left Side) -->
+  <text x="200" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#1f2937">
+    Traditional Linear Progression
+  </text>
+  
+  <!-- Traditional Pyramid -->
+  <g transform="translate(50, 90)">
+    <!-- Knowledge (Base) -->
+    <rect x="0" y="350" width="300" height="50" fill="url(#blackGradient)" filter="url(#shadow)" rx="5"/>
+    <text x="150" y="380" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">
+      KNOWLEDGE
+    </text>
+    <text x="150" y="395" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">
+      Memorize facts &amp; concepts
+    </text>
+    
+    <!-- Comprehension -->
+    <rect x="25" y="290" width="250" height="50" fill="url(#blackGradient)" filter="url(#shadow)" rx="5"/>
+    <text x="150" y="320" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">
+      COMPREHENSION
+    </text>
+    <text x="150" y="335" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">
+      Understand principles
+    </text>
+    
+    <!-- Application -->
+    <rect x="50" y="230" width="200" height="50" fill="url(#blackGradient)" filter="url(#shadow)" rx="5"/>
+    <text x="150" y="260" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">
+      APPLICATION
+    </text>
+    <text x="150" y="275" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">
+      Apply to exercises
+    </text>
+    
+    <!-- Analysis -->
+    <rect x="75" y="170" width="150" height="50" fill="url(#blackGradient)" filter="url(#shadow)" rx="5"/>
+    <text x="150" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">
+      ANALYSIS
+    </text>
+    <text x="150" y="215" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">
+      Break down problems
+    </text>
+    
+    <!-- Synthesis/Creation -->
+    <rect x="100" y="110" width="100" height="50" fill="url(#blackGradient)" filter="url(#shadow)" rx="5"/>
+    <text x="150" y="135" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">
+      CREATION
+    </text>
+    <text x="150" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">
+      Build solutions
+    </text>
+    
+    <!-- Evaluation -->
+    <rect x="125" y="50" width="50" height="50" fill="url(#blackGradient)" filter="url(#shadow)" rx="5"/>
+    <text x="150" y="75" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">
+      EVAL
+    </text>
+    <text x="150" y="90" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">
+      Judge quality
+    </text>
+    
+    <!-- Arrows pointing up -->
+    <path d="M150 340 L150 300 M145 305 L150 300 L155 305" stroke="#666" stroke-width="2" fill="none"/>
+    <path d="M150 280 L150 240 M145 245 L150 240 L155 245" stroke="#666" stroke-width="2" fill="none"/>
+    <path d="M150 220 L150 180 M145 185 L150 180 L155 185" stroke="#666" stroke-width="2" fill="none"/>
+    <path d="M150 160 L150 120 M145 125 L150 120 L155 125" stroke="#666" stroke-width="2" fill="none"/>
+    <path d="M150 100 L150 60 M145 65 L150 60 L155 65" stroke="#666" stroke-width="2" fill="none"/>
+  </g>
+  
+  <!-- VS in center -->
+  <circle cx="400" cy="300" r="30" fill="#10b981" filter="url(#shadow)"/>
+  <text x="400" y="310" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white">
+    VS
+  </text>
+  
+  <!-- AI-Assisted Approach (Right Side) -->
+  <text x="600" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#059669">
+    AI-Assisted Inverted Approach
+  </text>
+  
+  <!-- Inverted Pyramid -->
+  <g transform="translate(450, 90)">
+    <!-- Creation/Synthesis (Top - Largest) -->
+    <rect x="0" y="50" width="300" height="50" fill="url(#greenGradient)" filter="url(#shadow)" rx="5"/>
+    <text x="150" y="75" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">
+      CREATION + AI COLLABORATION
+    </text>
+    <text x="150" y="90" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">
+      Start with authentic problems
+    </text>
+    
+    <!-- Evaluation -->
+    <rect x="25" y="110" width="250" height="50" fill="url(#greenGradient)" filter="url(#shadow)" rx="5"/>
+    <text x="150" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">
+      EVALUATION
+    </text>
+    <text x="150" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">
+      Assess real-world impact
+    </text>
+    
+    <!-- Analysis -->
+    <rect x="50" y="170" width="200" height="50" fill="url(#greenGradient)" filter="url(#shadow)" rx="5"/>
+    <text x="150" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">
+      ANALYSIS
+    </text>
+    <text x="150" y="215" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">
+      Break down what works
+    </text>
+    
+    <!-- Application -->
+    <rect x="75" y="230" width="150" height="50" fill="url(#greenGradient)" filter="url(#shadow)" rx="5"/>
+    <text x="150" y="260" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">
+      APPLICATION
+    </text>
+    <text x="150" y="275" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">
+      Apply through iteration
+    </text>
+    
+    <!-- Comprehension -->
+    <rect x="100" y="290" width="100" height="50" fill="url(#greenGradient)" filter="url(#shadow)" rx="5"/>
+    <text x="150" y="315" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">
+      UNDERSTANDING
+    </text>
+    <text x="150" y="330" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">
+      Grasp principles
+    </text>
+    
+    <!-- Knowledge -->
+    <rect x="125" y="350" width="50" height="50" fill="url(#greenGradient)" filter="url(#shadow)" rx="5"/>
+    <text x="150" y="375" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">
+      FACTS
+    </text>
+    <text x="150" y="390" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">
+      Learn as needed
+    </text>
+    
+    <!-- Arrows pointing down -->
+    <path d="M150 100 L150 140 M145 135 L150 140 L155 135" stroke="#10b981" stroke-width="2" fill="none"/>
+    <path d="M150 160 L150 200 M145 195 L150 200 L155 195" stroke="#10b981" stroke-width="2" fill="none"/>
+    <path d="M150 220 L150 260 M145 255 L150 260 L155 255" stroke="#10b981" stroke-width="2" fill="none"/>
+    <path d="M150 280 L150 320 M145 315 L150 320 L155 315" stroke="#10b981" stroke-width="2" fill="none"/>
+    <path d="M150 340 L150 380 M145 375 L150 380 L155 375" stroke="#10b981" stroke-width="2" fill="none"/>
+  </g>
+  
+  <!-- Key Benefits at bottom -->
+  <text x="200" y="520" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#1f2937">
+    Traditional Result:
+  </text>
+  <text x="200" y="540" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">
+    Years of preparation before creation
+  </text>
+  <text x="200" y="555" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">
+    Theoretical knowledge without application
+  </text>
+  <text x="200" y="570" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#374151">
+    Delayed engagement with complex problems
+  </text>
+  
+  <text x="600" y="520" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#059669">
+    AI-Assisted Result:
+  </text>
+  <text x="600" y="540" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#059669">
+    Immediate meaningful creation
+  </text>
+  <text x="600" y="555" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#059669">
+    Learning through authentic problem-solving
+  </text>
+  <text x="600" y="570" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#059669">
+    Higher-order thinking from day one
+  </text>
+  
+</svg>
